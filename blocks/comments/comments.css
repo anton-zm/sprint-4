@@ -1,0 +1,41 @@
+@import url('./__title/comments__title.css');
+@import url('./__subtitle/comments__subtitle.css');
+@import url('./__container/comments__container.css');
+@import url('./__comment/comments__comment.css');
+
+
+.comments {
+    max-width: 1184px;
+    min-height: 594px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width : 1279px) {
+	.comments {
+        min-height: 650px;
+        max-width: 928px;
+    }
+}
+
+
+@media (max-width : 1023px) {
+	.comments {
+        max-width: 720px;
+    }
+}
+@media (max-width : 767px) {
+	.comments {
+        max-width: 390px;
+    }
+}
+@media (max-width : 424px) {
+	.comments {
+        max-width: 343px;
+    }
+}
+@media (max-width : 374px) {
+	.comments {
+        max-width: 288px;
+    }
+}

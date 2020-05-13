@@ -1,0 +1,44 @@
+@import url('./__title/intro__title.css');
+@import url('./__subtitle/intro_subtitle.css');
+@import url('./__content/intro__content.css');
+@import url('./__paragraph/intro__paragraph.css');
+@import url('./__achieves/intro__achieves.css');
+@import url('./__achieve/intro__achieve.css');
+@import url('./__achieve-numbers/intro__achieve-numbers.css');
+@import url('./__info-container/intro__info-container.css');
+@import url('./__info/intro__info.css');
+
+
+.intro {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width : 1279px) {
+	.intro {
+        max-width: 928px;
+    }
+}
+
+@media (max-width : 1023px) {
+	.intro {
+        max-width: 720px;
+    }
+}
+@media (max-width : 767px) {
+	.intro {
+        max-width: 390px;
+    }
+}
+@media (max-width : 424px) {
+	.intro {
+        max-width: 343px;
+    }
+}
+@media (max-width : 374px) {
+	.intro {
+        max-width: 288px;
+    }
+}
+

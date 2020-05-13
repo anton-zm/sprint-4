@@ -1,0 +1,13 @@
+.comments__comment {
+    margin-right: 18px;
+}
+
+.comments__comment:last-of-type {
+    margin-right: 0;
+}
+
+@media (max-width:1023px) {
+    .comments__comment {
+        margin: 0;
+    }
+}

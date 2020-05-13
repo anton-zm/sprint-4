@@ -1,0 +1,15 @@
+.intro__achieve {
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .intro__achieve {
+        font-size: 12px;
+        line-height: 19px;
+        
+    }
+}
+

@@ -1,0 +1,13 @@
+.intro__achieve-numbers {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media (max-width:767px) {
+    .intro__achieve-numbers {
+        font-size: 12px;
+        line-height: 19px;
+        
+    }
+}
